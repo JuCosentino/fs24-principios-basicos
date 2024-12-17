@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Revisão HTML básico</title>
+    <!-- CSS Interno -->
+    <style>
+        table,
+        th,
+        td {
+            border: solid 1px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ctrl = ; = comentário -->
+    <!-- cabeçalhos (titulos) -->
+    <h1>H1</h1>
+    <h2>H2</h2>
+    <h3>H3</h3>
+    <h4>H4</h4>
+    <h5>h5</h5>
+    <h6>H6</h6>
+
+    <!-- Linha (row) horizontal -->
+    <hr />
+
+    <!-- Parágrafos -->
+    <p>Parágrafos</p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quasi,
+        corrupti unde ipsam magni est laboriosam voluptatibus ad pariatur ducimus
+        recusandae enim nam illo. Saepe aliquam dolores recusandae fugit sit vitae
+        consequatur sed magnam iste delectus nam excepturi, modi itaque a in harum
+        autem optio.
+    </p>
+    <!-- Alt + Z = ajusta o texto no editor -->
+
+    <!-- UL unorderd list (lista não ordenada) -->
+    <!-- atalho para criar lista x5 -->
+    ul>li*5{Item $}
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>
+            <ul>
+                <li>teste</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- OL orderd list (lista ordenada) -->
+    <ol>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+        <li>Item D</li>
+        <li>Item E</li>
+    </ol>
+    </ol>
+
+    <ol start="5" type="I" reversed>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ol>
+    <hr>
+    <!-- Tabelas -->
+    <table>
+        <!-- Cabeçalho da tabela -->
+        <tr>
+            <th>ID</th>
+            <th>Produto</th>
+            <th>Descrição</th>
+            <th>R$</th>
+        </tr>
+
+        <!-- Corpo da tabela -->
+
+        <!-- Produto 1 -->
+        <tr>
+            <td>1</td>
+            <td>BYD Dolphin</td>
+            <td>Chinese Electric car</td>
+            <td>159.000,00</td>
+        </tr>
+        <!-- Produto 2 -->
+        <tr>
+            <td>2</td>
+            <td>Tesla</td>
+            <td>American Electric Car</td>
+            <td>500.000,00</td>
+        </tr>
+        <!-- Produto 3 -->
+        <tr>
+            <td>3</td>
+            <td>Honda</td>
+            <td>Japanese Hybrid Car</td>
+            <td>250.000,00</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <!-- Mesclando os campos da tabela -->
+    <table>
+        <!-- Cabeçalho da tabela -->
+        <tr>
+            <th colspan="2">Nome Completo</th>
+            <th>Idade</th>
+        </tr>
+         <!-- Corpo da tabela -->
+        <tr>
+            <td>Juliana</td>
+            <td>Cosentino</td>
+            <td>25</td>
+        </tr>
+    </table>
+    <br><br>
+    <table>
+        <!-- Cabeçalho da tabela -->
+        <tr>
+            <th>Nome</th>
+            <th>Juliana</th>
+        </tr>
+         <!-- Corpo da tabela -->
+        <tr>
+            <td rowspan="3">Telefone</td>
+            <td>(85) 99870-9242</td>
+        </tr>
+        <tr>
+            <td>(85) 99870-9543</td>
+        </tr>
+        <tr>
+            <td>(85) 99956-9900</td>
+        </tr>
+    </table>
+    <!-- Ctrl + V = area de transferencia -->
+    <br><br><br><br><br>
+</body>
+
+</html>
